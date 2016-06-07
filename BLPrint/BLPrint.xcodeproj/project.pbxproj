@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		223346891D066AF800A30081 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 223346881D066AF800A30081 /* main.m */; };
+		2233468C1D066AF800A30081 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2233468B1D066AF800A30081 /* AppDelegate.m */; };
+		2233468F1D066AF800A30081 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2233468E1D066AF800A30081 /* ViewController.m */; };
+		223346921D066AF800A30081 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 223346901D066AF800A30081 /* Main.storyboard */; };
+		223346941D066AF800A30081 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 223346931D066AF800A30081 /* Assets.xcassets */; };
+		223346971D066AF800A30081 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 223346951D066AF800A30081 /* LaunchScreen.storyboard */; };
+		223346AB1D066B7B00A30081 /* libGSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 223346AA1D066B7B00A30081 /* libGSDK.a */; };
+		223346AE1D066BCD00A30081 /* GPrinterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 223346AD1D066BCD00A30081 /* GPrinterController.m */; };
+		223346B51D066CFE00A30081 /* PrinterUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 223346B11D066CFE00A30081 /* PrinterUtil.m */; };
+		223346B61D066CFE00A30081 /* BLGPrinterSDKModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 223346B41D066CFE00A30081 /* BLGPrinterSDKModel.m */; };
+		223346B81D066D1500A30081 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 223346B71D066D1500A30081 /* CoreBluetooth.framework */; };
+		2263A9C31D06717400415141 /* CBController+GPrinter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2263A9C21D06717400415141 /* CBController+GPrinter.m */; };
+		2263A9C61D0672EE00415141 /* Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 2263A9C51D0672EE00415141 /* Toast.m */; };
+		2263A9C91D06742100415141 /* PrinterFormatText.m in Sources */ = {isa = PBXBuildFile; fileRef = 2263A9C81D06742100415141 /* PrinterFormatText.m */; };
+		2263A9CC1D06759C00415141 /* NSString+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 2263A9CB1D06759C00415141 /* NSString+Util.m */; };
+		2263A9CF1D06779800415141 /* Order.m in Sources */ = {isa = PBXBuildFile; fileRef = 2263A9CE1D06779800415141 /* Order.m */; };
+		2263A9D21D067B3300415141 /* PrinterConnectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2263A9D11D067B3300415141 /* PrinterConnectViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		223346841D066AF800A30081 /* BLPrint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BLPrint.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		223346881D066AF800A30081 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2233468A1D066AF800A30081 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2233468B1D066AF800A30081 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2233468D1D066AF800A30081 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2233468E1D066AF800A30081 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		223346911D066AF800A30081 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		223346931D066AF800A30081 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		223346961D066AF800A30081 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		223346981D066AF800A30081 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		223346A31D066B7B00A30081 /* BLKWrite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLKWrite.h; sourceTree = "<group>"; };
+		223346A41D066B7B00A30081 /* CBController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBController.h; sourceTree = "<group>"; };
+		223346A51D066B7B00A30081 /* DeviceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceInfo.h; sourceTree = "<group>"; };
+		223346A61D066B7B00A30081 /* EscCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EscCommand.h; sourceTree = "<group>"; };
+		223346A71D066B7B00A30081 /* MyPeripheral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPeripheral.h; sourceTree = "<group>"; };
+		223346A81D066B7B00A30081 /* ReliableBurstData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReliableBurstData.h; sourceTree = "<group>"; };
+		223346A91D066B7B00A30081 /* TscCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TscCommand.h; sourceTree = "<group>"; };
+		223346AA1D066B7B00A30081 /* libGSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGSDK.a; sourceTree = "<group>"; };
+		223346AC1D066BCD00A30081 /* GPrinterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPrinterController.h; sourceTree = "<group>"; };
+		223346AD1D066BCD00A30081 /* GPrinterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPrinterController.m; sourceTree = "<group>"; };
+		223346B01D066CFE00A30081 /* PrinterUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrinterUtil.h; sourceTree = "<group>"; };
+		223346B11D066CFE00A30081 /* PrinterUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrinterUtil.m; sourceTree = "<group>"; };
+		223346B21D066CFE00A30081 /* PrinterScanProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrinterScanProtocol.h; sourceTree = "<group>"; };
+		223346B31D066CFE00A30081 /* BLGPrinterSDKModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLGPrinterSDKModel.h; sourceTree = "<group>"; };
+		223346B41D066CFE00A30081 /* BLGPrinterSDKModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLGPrinterSDKModel.m; sourceTree = "<group>"; };
+		223346B71D066D1500A30081 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		2263A9C11D06717400415141 /* CBController+GPrinter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CBController+GPrinter.h"; sourceTree = "<group>"; };
+		2263A9C21D06717400415141 /* CBController+GPrinter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CBController+GPrinter.m"; sourceTree = "<group>"; };
+		2263A9C41D0672EE00415141 /* Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Toast.h; sourceTree = "<group>"; };
+		2263A9C51D0672EE00415141 /* Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Toast.m; sourceTree = "<group>"; };
+		2263A9C71D06742100415141 /* PrinterFormatText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrinterFormatText.h; sourceTree = "<group>"; };
+		2263A9C81D06742100415141 /* PrinterFormatText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrinterFormatText.m; sourceTree = "<group>"; };
+		2263A9CA1D06759C00415141 /* NSString+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Util.h"; sourceTree = "<group>"; };
+		2263A9CB1D06759C00415141 /* NSString+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Util.m"; sourceTree = "<group>"; };
+		2263A9CD1D06779800415141 /* Order.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Order.h; sourceTree = "<group>"; };
+		2263A9CE1D06779800415141 /* Order.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Order.m; sourceTree = "<group>"; };
+		2263A9D01D067B3300415141 /* PrinterConnectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrinterConnectViewController.h; sourceTree = "<group>"; };
+		2263A9D11D067B3300415141 /* PrinterConnectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrinterConnectViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		223346811D066AF800A30081 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				223346B81D066D1500A30081 /* CoreBluetooth.framework in Frameworks */,
+				223346AB1D066B7B00A30081 /* libGSDK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2233467B1D066AF800A30081 = {
+			isa = PBXGroup;
+			children = (
+				223346B71D066D1500A30081 /* CoreBluetooth.framework */,
+				223346861D066AF800A30081 /* BLPrint */,
+				223346851D066AF800A30081 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		223346851D066AF800A30081 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				223346841D066AF800A30081 /* BLPrint.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		223346861D066AF800A30081 /* BLPrint */ = {
+			isa = PBXGroup;
+			children = (
+				2233469E1D066B7B00A30081 /* SDKs */,
+				223346AF1D066CEE00A30081 /* Printer */,
+				2233468A1D066AF800A30081 /* AppDelegate.h */,
+				2233468B1D066AF800A30081 /* AppDelegate.m */,
+				2263A9C41D0672EE00415141 /* Toast.h */,
+				2263A9C51D0672EE00415141 /* Toast.m */,
+				2263A9CD1D06779800415141 /* Order.h */,
+				2263A9CE1D06779800415141 /* Order.m */,
+				2233468D1D066AF800A30081 /* ViewController.h */,
+				2233468E1D066AF800A30081 /* ViewController.m */,
+				2263A9D01D067B3300415141 /* PrinterConnectViewController.h */,
+				2263A9D11D067B3300415141 /* PrinterConnectViewController.m */,
+				223346901D066AF800A30081 /* Main.storyboard */,
+				223346931D066AF800A30081 /* Assets.xcassets */,
+				223346951D066AF800A30081 /* LaunchScreen.storyboard */,
+				223346981D066AF800A30081 /* Info.plist */,
+				223346871D066AF800A30081 /* Supporting Files */,
+			);
+			path = BLPrint;
+			sourceTree = "<group>";
+		};
+		223346871D066AF800A30081 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				223346881D066AF800A30081 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2233469E1D066B7B00A30081 /* SDKs */ = {
+			isa = PBXGroup;
+			children = (
+				2233469F1D066B7B00A30081 /* GPrinter */,
+			);
+			path = SDKs;
+			sourceTree = "<group>";
+		};
+		2233469F1D066B7B00A30081 /* GPrinter */ = {
+			isa = PBXGroup;
+			children = (
+				223346A01D066B7B00A30081 /* ConnectVC */,
+				223346A11D066B7B00A30081 /* GprinterSDKforIOS_v1.1.0 */,
+			);
+			path = GPrinter;
+			sourceTree = "<group>";
+		};
+		223346A01D066B7B00A30081 /* ConnectVC */ = {
+			isa = PBXGroup;
+			children = (
+				223346AC1D066BCD00A30081 /* GPrinterController.h */,
+				223346AD1D066BCD00A30081 /* GPrinterController.m */,
+				2263A9C11D06717400415141 /* CBController+GPrinter.h */,
+				2263A9C21D06717400415141 /* CBController+GPrinter.m */,
+			);
+			path = ConnectVC;
+			sourceTree = "<group>";
+		};
+		223346A11D066B7B00A30081 /* GprinterSDKforIOS_v1.1.0 */ = {
+			isa = PBXGroup;
+			children = (
+				223346A21D066B7B00A30081 /* include */,
+				223346AA1D066B7B00A30081 /* libGSDK.a */,
+			);
+			path = GprinterSDKforIOS_v1.1.0;
+			sourceTree = "<group>";
+		};
+		223346A21D066B7B00A30081 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				223346A31D066B7B00A30081 /* BLKWrite.h */,
+				223346A41D066B7B00A30081 /* CBController.h */,
+				223346A51D066B7B00A30081 /* DeviceInfo.h */,
+				223346A61D066B7B00A30081 /* EscCommand.h */,
+				223346A71D066B7B00A30081 /* MyPeripheral.h */,
+				223346A81D066B7B00A30081 /* ReliableBurstData.h */,
+				223346A91D066B7B00A30081 /* TscCommand.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		223346AF1D066CEE00A30081 /* Printer */ = {
+			isa = PBXGroup;
+			children = (
+				2263A9CA1D06759C00415141 /* NSString+Util.h */,
+				2263A9CB1D06759C00415141 /* NSString+Util.m */,
+				2263A9C71D06742100415141 /* PrinterFormatText.h */,
+				2263A9C81D06742100415141 /* PrinterFormatText.m */,
+				223346B01D066CFE00A30081 /* PrinterUtil.h */,
+				223346B11D066CFE00A30081 /* PrinterUtil.m */,
+				223346B21D066CFE00A30081 /* PrinterScanProtocol.h */,
+				223346B31D066CFE00A30081 /* BLGPrinterSDKModel.h */,
+				223346B41D066CFE00A30081 /* BLGPrinterSDKModel.m */,
+			);
+			path = Printer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		223346831D066AF800A30081 /* BLPrint */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2233469B1D066AF800A30081 /* Build configuration list for PBXNativeTarget "BLPrint" */;
+			buildPhases = (
+				223346801D066AF800A30081 /* Sources */,
+				223346811D066AF800A30081 /* Frameworks */,
+				223346821D066AF800A30081 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BLPrint;
+			productName = BLPrint;
+			productReference = 223346841D066AF800A30081 /* BLPrint.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2233467C1D066AF800A30081 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = YJ;
+				TargetAttributes = {
+					223346831D066AF800A30081 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 4PE8GWH9XQ;
+					};
+				};
+			};
+			buildConfigurationList = 2233467F1D066AF800A30081 /* Build configuration list for PBXProject "BLPrint" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2233467B1D066AF800A30081;
+			productRefGroup = 223346851D066AF800A30081 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				223346831D066AF800A30081 /* BLPrint */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		223346821D066AF800A30081 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				223346971D066AF800A30081 /* LaunchScreen.storyboard in Resources */,
+				223346941D066AF800A30081 /* Assets.xcassets in Resources */,
+				223346921D066AF800A30081 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		223346801D066AF800A30081 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2233468F1D066AF800A30081 /* ViewController.m in Sources */,
+				2233468C1D066AF800A30081 /* AppDelegate.m in Sources */,
+				2263A9D21D067B3300415141 /* PrinterConnectViewController.m in Sources */,
+				2263A9C31D06717400415141 /* CBController+GPrinter.m in Sources */,
+				223346B51D066CFE00A30081 /* PrinterUtil.m in Sources */,
+				223346B61D066CFE00A30081 /* BLGPrinterSDKModel.m in Sources */,
+				2263A9C61D0672EE00415141 /* Toast.m in Sources */,
+				2263A9C91D06742100415141 /* PrinterFormatText.m in Sources */,
+				2263A9CC1D06759C00415141 /* NSString+Util.m in Sources */,
+				223346AE1D066BCD00A30081 /* GPrinterController.m in Sources */,
+				2263A9CF1D06779800415141 /* Order.m in Sources */,
+				223346891D066AF800A30081 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		223346901D066AF800A30081 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				223346911D066AF800A30081 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		223346951D066AF800A30081 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				223346961D066AF800A30081 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		223346991D066AF800A30081 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2233469A1D066AF800A30081 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2233469C1D066AF800A30081 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = BLPrint/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BLPrint/SDKs/GPrinter/GprinterSDKforIOS_v1.1.0",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.neighborhood.BLPrint;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "1cfd1e49-aef1-4bbd-ad64-0995b562f802";
+			};
+			name = Debug;
+		};
+		2233469D1D066AF800A30081 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = BLPrint/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BLPrint/SDKs/GPrinter/GprinterSDKforIOS_v1.1.0",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.neighborhood.BLPrint;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "1cfd1e49-aef1-4bbd-ad64-0995b562f802";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2233467F1D066AF800A30081 /* Build configuration list for PBXProject "BLPrint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				223346991D066AF800A30081 /* Debug */,
+				2233469A1D066AF800A30081 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2233469B1D066AF800A30081 /* Build configuration list for PBXNativeTarget "BLPrint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2233469C1D066AF800A30081 /* Debug */,
+				2233469D1D066AF800A30081 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2233467C1D066AF800A30081 /* Project object */;
+}
