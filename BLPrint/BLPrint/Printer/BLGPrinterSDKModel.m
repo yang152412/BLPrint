@@ -2,8 +2,8 @@
 //  SDKModel.m
 //  partner
 //
-//  Created by 杨世昌 on 16/6/6.
-//  Copyright © 2016年 杨世昌. All rights reserved.
+//  Created by YJ on 16/6/6.
+//  Copyright © 2016年 YJ. All rights reserved.
 //
 
 #import "BLGPrinterSDKModel.h"

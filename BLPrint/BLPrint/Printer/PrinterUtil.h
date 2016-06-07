@@ -2,8 +2,8 @@
 //  PrinterUtil.h
 //  partner
 //
-//  Created by 杨世昌 on 16/5/26.
-//  Copyright © 2016年 杨世昌. All rights reserved.
+//  Created by YJ on 16/5/26.
+//  Copyright © 2016年 YJ. All rights reserved.
 //
 
 /*
