@@ -22,3 +22,10 @@
 3、PrinterScanProtocol 定义了扫描的协议，用于每个 sdk 执行自己的扫描方法（虽然我们自己扫描了，但是他们的方法还是要执行以下，以防 他们做了什么处理），和收到回调
 
 4、BLGprinterSDKModel 则是封装 GPrinter 的类，实现了 PrinterScanProtocol 协议。如果要再添加其他 sdk，则再新增对应的 model。
+
+
+### 关于打印命令
+
+佳博 sdk 也使用的是 标准 ESC 命令，只是 做了处理而已。通过打印 发现他们 `EscCommand` 中的 `getCommand` 方法。其实 打印出的命令就是 标准的 ESC 命令，这一步是没做处理的。 如果偷懒，我们也可以直接用他们封装的 方法。如果用其他 sdk 打印，则只要用这个 data 就可以了。
+
+
